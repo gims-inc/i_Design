@@ -1,0 +1,260 @@
+
+/* ______________________general_____________________ */
+.servicecontainer{
+    width: 100%;
+    margin:0px;
+}
+
+hr{
+    width:60%;
+}
+
+/* ________________Branding Strategy______________ */
+
+.branding-startegy{
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 10%;
+    background-color: #222121;
+    color: white;
+    display: block;
+}
+
+#div-one h1{
+    font-size:60px;
+    justify-self: center;
+}
+#div-one{
+    display:flex;
+    justify-content: center;
+
+    align-items: center;
+
+    padding-top: 0%;
+    padding-bottom: 10%;
+
+    column-count: 2;
+
+}
+
+.email-input{
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.btn-input {
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+
+#div-one h5{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    color: #EEB30D;
+    font-size: 18px;
+}
+.branding-startegy hr{
+    color: #EEB30D;
+    /* border: none; */
+    /* height: 10px; */
+}
+#branding-header-div h2{
+    font-size: 50px;
+}
+
+#column{
+    float: left;
+  width: 50%;
+}
+#img-one{
+    /* display: block; */
+    padding: 0%;
+    float: left;
+  width: 50%;
+   
+}
+
+#btn-three{
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+#img-one img{
+    /* width: 490px; */
+    width: 100%;
+    /* height: 430px; */
+    height: 90%;
+    /* z-index: -1; */
+    margin-left:0px;
+    /* border-left:solid #EEB30D; */
+    opacity:0.5;
+}
+
+
+.branding-startegy img{
+   background: inherit;
+
+}
+.form-one{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 40px;
+}
+
+#branding-row-three{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#branding-row-four{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#branding-row-two{
+    padding-bottom: 3%;
+    padding-left: 5%;
+}
+
+
+/* -----------------Digital Products---------------------- */
+.digital-products{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #E7E7E7;
+    color: #222121;
+}
+
+#dg-col-two h2{
+    font-size: 50px;
+}
+
+#img-two img{
+    width: 580px;
+    height: 350px;
+    /* grayscale  ToDo*/
+    filter: grayscale(100%);
+     /* z-index: -1; */
+}
+
+
+
+/* -------------------------websites----------------------- */
+.websites{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #222121;
+    color: white;
+    display: block;
+}
+
+
+#wb-col-one h2{
+    font-size: 50px;
+}
+
+#wb-row-two h5{
+    font-size: 18px;
+}
+.websites hr{
+    color: #EEB30D;
+
+}
+
+
+/* _____________________development____________________________ */
+
+.development{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #E7E7E7;
+    color: #222121;
+    display: flex;
+}
+
+#dev-col-two h2{
+    font-size: 50px;
+}
+
+#dev-img-col{
+    width: 180px;
+    height: 350px;
+    background-color: gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+
+}
+/* ____________________content_______________________________________ */
+.content{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #222121;
+    color: white;
+}
+.content hr{
+    color: #EEB30D;
+
+}
+
+#content-col-one h2{
+    font-size: 50px;
+}
+
+#content-row-two h5{
+    font-size: 18px;
+}
+/* _______________________marketing_______________________________ */
+.marketing{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #E7E7E7;
+    color: #222121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-four img{
+    width: 450px;
+    height: 450px;
+    /* background-color: #222121; */
+    border-radius:50%;
+    position: relative;
+    /* z-index: -1; */
+
+    -webkit-animation:spin 45s linear infinite;
+    -moz-animation:spin 45s linear infinite;
+    animation:spin 45s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+#mk-col-two h2{
+    font-size: 50px;
+}
+
+#mk-col-two h5{
+    font-size: 18px;
+}
+
+#mk-col-two{
+    display: block;
+    align-content: center;
+    justify-content: center;
+}

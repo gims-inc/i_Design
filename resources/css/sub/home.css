@@ -1,0 +1,262 @@
+
+.contain{
+    background-color: #000;
+  }
+  
+  .mainContainer {
+    max-width: max-content; /* Set your desired maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0px; /* Add some padding, if desired */
+  justify-self: auto;
+  }
+  
+  .mainContainer h1{
+      height: 348px;
+      width: 1420px;
+      
+      color: white;
+      line-height: 123px;
+      font-family: Montserrat;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 103px;
+  letter-spacing: 0.035em;
+  text-align: center;
+  
+  }
+  .liny{
+    border-left: 2px solid white;
+    height: 100px;
+    position: relative;
+    left: 50%;
+    top: 0;
+  
+  }
+  p{
+    width: 1502px;
+  height: 147px;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 49px;
+  letter-spacing: -0.015em;
+  text-align: center;
+  color: #fff;
+  }
+  .layer{
+    background: #EEB30D;
+    margin-bottom: 20px;
+   margin-inline: 650px;
+    width: 240px;
+  height: 6px;
+  top: 839px;
+  left: 720px;
+  border-radius: 100px;
+  
+  }
+  .vedio{
+  font-family: Montserrat;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 104px;
+  letter-spacing: -0.015em;
+  text-align: center;
+  color: #fff;
+   width: 1420px;
+  height: 244px;
+  margin: 250px;
+  
+  }
+  .vedio p{
+    font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 49px;
+  letter-spacing: -0.015em;
+  text-align: center;
+  color: #fff;
+    width: 1123px;
+  height: 147px;
+  
+  
+  }
+  .contet{
+    background-color: #353535;
+  }
+  h3{
+    margin-left: 220px;
+    width: 1046px;
+  height: 266px;
+  top: 2032px;
+  left: 317px;
+  font-family: Montserrat;
+  font-size: 115px;
+  font-weight: 400;
+  line-height: 132px;
+  letter-spacing: -0.015em;
+  text-align: center;
+  color: #FFF;
+  
+  }
+  .contet p{
+    margin-left: 50px;
+    font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 53px;
+  letter-spacing: -0.015em;
+  text-align: center;
+  
+    width: 1363px;
+  height: 126px;
+  
+  }
+  .liny{
+    border-left: 2px solid white;
+    height: 100px;
+    position: relative;
+    left: 50%;
+    top: 0;
+  
+  }
+  .card{
+  width: 272px;
+  height: 402px;
+  top: 0px;
+  left: 91px;
+  border-radius: 10px;
+  
+  
+  }
+   .mainContainer ul li{
+    border-style: outset;
+  }
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    column-gap: normal;
+   
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 10 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  .imag{
+    display: flex;
+  font-size: 50px;
+  font-weight: 100;
+  
+  margin: 1o0px;
+  }
+  
+   .image img{
+    margin-top: 100px;
+    width: 400px;
+    padding: 40px;
+    margin-right: 150px;
+  height: 576px;
+  top: 367px;
+  left: 910px;
+  border: 1px;
+  rotate: 15deg;
+  
+  }
+  
+  .imag h2{
+    font-family: Montserrat;
+  font-size: 100px;
+  font-weight: 200;
+  line-height: 110px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  
+  height: 283px;
+  
+  margin: 80px;
+  color: white;
+  padding: 35px;
+  
+  }
+  .lettr{
+    background-color: black;
+  }
+  .lettr h2{
+    
+    font-family: Montserrat;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 132px;
+  letter-spacing: -0.015em;
+  text-align: center;
+  
+    width: 1455px;
+  height: 267px;
+  top: 4456px;
+  left: 112px;
+  
+  }
+  .gets{
+    font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.015em;
+  text-align: center;
+  
+    
+  }
+  .hy{
+   
+    font-family: Michroma;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 102px;
+  letter-spacing: -0.015em;
+  text-align: center;
+  
+  
+  }
+  
+  .talk{
+    margin-top: 0px;
+    font-family: Michroma;
+    font-size: 60px;
+    font-weight: 100;
+    line-height: 102px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    
+  }
+  .gh p{
+    font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 49px;
+  letter-spacing: -0.015em;
+  text-align: center;
+  
+  }
+  .icons a{
+    display: flex;
+    width: 50px;
+  height: 50px;
+  top: 5534px;
+  left: 635px;
+  
+  }

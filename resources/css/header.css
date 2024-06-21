@@ -1,0 +1,53 @@
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: black;
+    align-items: center;
+    position:fixed;
+    width:100%;
+    /* opacity: 0 6; */
+    z-index: 2;
+}
+
+.nav a{
+    text-decoration: none; /* Remove underline */
+    color: azure;
+}
+
+.links li :hover{
+    color:#EEB30D;
+}
+
+.nav li{
+    list-style: none;
+  
+}
+
+.nav .links{
+    display: flex;
+    gap: 30px;
+}
+
+.get-in-touch{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #EEB30D;
+    border:none;
+}
+
+/* define meadia for each screen ToDo */
+
+/* @media screen  {
+    .nav {
+        display: block;
+    }
+
+    .links{
+        display: none;
+    }
+} */

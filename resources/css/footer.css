@@ -1,0 +1,104 @@
+
+.footer{
+    display: block;
+    justify-content:center;
+    background-color: black;
+    padding-left: 15%;
+    padding-right: 15%;
+    align-items: center;
+    width:100%;
+    
+}
+
+.footer .hy{   
+ font-family: Michroma;
+  font-size: 60px;
+  color:#EEB30D;
+  font-weight: 100;
+  line-height: 102px;
+  letter-spacing: -0.015em;
+  text-align: center
+  }
+  
+  .footer .talk{
+    margin-top: 0px;
+    font-family: Michroma;
+    color: azure;
+    font-size: 60px;
+    font-weight: 100;
+    line-height: 102px;
+    letter-spacing: -0.015em;
+    /* text-align: center; */
+  }
+
+  .footer #together{
+    font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 49px;
+  /* letter-spacing: -0.015em;*/
+  text-align: center; 
+  color:white;
+  
+  }
+
+  .icons{
+    display: flex;
+    justify-content:center;
+    padding-top:10px;
+  }
+
+.icons a:hover{
+    color:#EEB30D;
+}
+
+  .footer .icons a{
+ /* display: flex; */
+    width: 90px;
+  height: 90px;
+  /* top: 5534px;
+  left: 635px; */
+  color:white;
+  
+  }
+
+  .client{
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content:center;
+    align-items:center;
+    color: azure;
+    font-family: Montserrat;
+    padding-bottom: 50px;
+  }
+
+  .lastline{
+    display: flex;
+    justify-content:center;
+    color: azure;
+    gap: 50%;
+    font-family: Montserrat;
+    
+  }
+
+
+.client a{
+    text-decoration: none; /* Remove underline */
+    color: azure;
+}
+.client a:hover{
+    color:#EEB30D;
+}
+
+.copy{
+    /* justify-content: flex-start; */
+    margin-left:0px;
+    font-size: 15px;
+}
+
+.locale{
+    /* justify-content:flex-end; */
+    margin-right:0px;
+    font-size: 15px;
+}
